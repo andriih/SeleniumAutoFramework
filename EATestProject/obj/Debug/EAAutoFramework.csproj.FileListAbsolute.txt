@@ -1,0 +1,2 @@
+E:\Projects\UdemyEATestProject\EATestProject\EATestProject\obj\Debug\EAAutoFramework.csprojAssemblyReference.cache
+E:\Projects\UdemyEATestProject\EATestProject\EATestProject\obj\Debug\EAAutoFramework.csproj.CoreCompileInputs.cache
