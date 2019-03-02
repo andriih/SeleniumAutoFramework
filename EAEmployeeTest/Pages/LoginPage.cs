@@ -7,31 +7,20 @@ namespace EAEmployeeTest.Pages
 {
     class LoginPage : BasePage
     {
-
-     
-        [FindsBy(How = How.LinkText, Using = "Log In")]
-        public IWebElement lnkLogin { get;set;}
+        [FindsBy(How = How.XPath, Using = "//*[@id='loginLink']")]
+        IWebElement lnkLogin { get; set; }
 
         [FindsBy(How = How.LinkText, Using = "Employee List")]
-        public IWebElement lnkEmployeeList { get; set; }
+        IWebElement lnkEmployeeList { get; set; }
 
         [FindsBy(How = How.Id, Using = "UserName")]
-        public IWebElement txtUserName
-        {
-            get; set;
-        }
+        IWebElement txtUserName{get; set;}
 
         [FindsBy(How = How.Id, Using = "Password")]
-        public IWebElement txtPassword
-        {
-            get; set;
-        }
+        IWebElement txtPassword{get; set;}
 
         [FindsBy(How = How.CssSelector , Using = "input.btn")]
-        public IWebElement btnLogin
-        {
-            get; set;
-        }
+        IWebElement btnLogin{get; set;}
 
         public void Login( string userName, string password)
         {
@@ -42,15 +31,14 @@ namespace EAEmployeeTest.Pages
 
         public void ClickLoginLogin()
         {
-            btnLogin.Click();
+            lnkLogin.Click();
         }
 
         public EmployeePage ClickEmployeeList()
         {
-            //System.Threading.Thread.Sleep(5000);
+           // System.Threading.Thread.Sleep(5000);
             lnkEmployeeList.Click();
-            
-            return new EmployeePage();
+            return GetInstance<EmployeePage>();
         }
     }
 }

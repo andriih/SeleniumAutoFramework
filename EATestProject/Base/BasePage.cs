@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EAAutoFramework.Base
 {
-    public abstract class BasePage
+    public abstract class BasePage : Base
     {
         public BasePage()
         {

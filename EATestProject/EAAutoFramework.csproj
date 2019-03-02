@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C4B8A286-DC03-4597-B4CD-6A277B2BB515}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EAAutoFramework</RootNamespace>
     <AssemblyName>EAAutoFramework</AssemblyName>
@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\Base.cs" />
     <Compile Include="Base\BasePage.cs" />
     <Compile Include="Base\BaseStep.cs" />
     <Compile Include="Base\Browser.cs" />
