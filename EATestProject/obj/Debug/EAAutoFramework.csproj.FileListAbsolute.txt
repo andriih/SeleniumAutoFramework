@@ -11,3 +11,17 @@ E:\Projects\SeleniumAutoFramework\EATestProject\bin\Debug\WebDriver.Support.xml
 E:\Projects\SeleniumAutoFramework\EATestProject\obj\Debug\EAAutoFramework.csproj.CopyComplete
 E:\Projects\SeleniumAutoFramework\EATestProject\obj\Debug\EAAutoFramework.dll
 E:\Projects\SeleniumAutoFramework\EATestProject\obj\Debug\EAAutoFramework.pdb
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\EAAutoFramework.dll
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\EAAutoFramework.pdb
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\Excel.dll
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\WebDriver.dll
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\WebDriver.Support.dll
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\Excel.pdb
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\WebDriver.xml
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\WebDriver.Support.xml
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\obj\Debug\EAAutoFramework.csproj.CoreCompileInputs.cache
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\obj\Debug\EAAutoFramework.csproj.CopyComplete
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\obj\Debug\EAAutoFramework.dll
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\obj\Debug\EAAutoFramework.pdb
+C:\Users\Андрій\Desktop\SeleniumAutoFramework\EATestProject\obj\Debug\EAAutoFramework.csprojAssemblyReference.cache

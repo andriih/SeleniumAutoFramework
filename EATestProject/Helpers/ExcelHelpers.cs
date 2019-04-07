@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace EAAutoFramework.Helpers
 {
-    class ExcelHelpers
+    public class ExcelHelpers
     {
-        private static List<Datacollection> dataCol = new List<Datacollection>();
+        private static List<Datacollection> _dataCol = new List<Datacollection>();
 
-        public static void PopulateCollection(string fileName)
+        public static void PopulateInCollection(string fileName)
         {
             DataTable table = ExcelToDataTable(fileName);
 
@@ -28,7 +28,7 @@ namespace EAAutoFramework.Helpers
                         colValue = table.Rows[row - 1][col].ToString()
                     };
 
-                    dataCol.Add(dtTable);
+                    _dataCol.Add(dtTable);
                 }
             }
         }
@@ -48,6 +48,21 @@ namespace EAAutoFramework.Helpers
             DataTable resultTable = table["Sheet1"];
 
             return resultTable;
+        }
+
+        public static string ReadData(int rowNumber, string columnName)
+        {
+            try
+            {
+                string data = (from colData in _dataCol
+                               where colData.colName == columnName && colData.rowNumber == rowNumber
+                               select colData.colValue).SingleOrDefault();
+                return data.ToString();
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
         }
 
         public class Datacollection
