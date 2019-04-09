@@ -43,7 +43,12 @@ namespace EAEmployeeTest
             ExcelHelpers.PopulateInCollection(fileName);
 
             //Browser opening
-            OpenBrowser(BrowserType.Chrome); 
+            LogHelpers.CreateLogFile();
+
+            OpenBrowser(BrowserType.Chrome);
+
+            LogHelpers.Write("Browser Opened");
+
             DriverContext.Browser.GoToUrl(url);
 
             //Login Page 
@@ -54,6 +59,7 @@ namespace EAEmployeeTest
             //Employee Page
             CurrentPage =  CurrentPage.As<LoginPage>().ClickEmployeeList();
             CurrentPage.As<EmployeePage>().ClickCreateNew();
+
         }
     }
 }
