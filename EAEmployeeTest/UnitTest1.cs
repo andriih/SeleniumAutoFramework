@@ -1,5 +1,6 @@
 ﻿using System;
 using EAAutoFramework.Base;
+using EAAutoFramework.Base.Config;
 using EAAutoFramework.Helpers;
 using EAEmployeeTest.Pages;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -14,7 +15,7 @@ namespace EAEmployeeTest
     [TestClass]
     public class UnitTest1 : Base
     {
-        String url = "http://eaapp.somee.com/";
+        String url = ConfigReader.InitializeTest();
 
         public void OpenBrowser(BrowserType browserType = BrowserType.Chrome)
         {
@@ -43,11 +44,12 @@ namespace EAEmployeeTest
             ExcelHelpers.PopulateInCollection(fileName);
 
             //Browser opening
-            LogHelpers.CreateLogFile();
+           
+            //LogHelpers.CreateLogFile();
 
             OpenBrowser(BrowserType.Chrome);
 
-            LogHelpers.Write("Browser Opened");
+            //LogHelpers.Write("Browser Opened");
 
             DriverContext.Browser.GoToUrl(url);
 

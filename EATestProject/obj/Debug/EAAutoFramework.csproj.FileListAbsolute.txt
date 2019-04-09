@@ -42,3 +42,5 @@ C:\Users\andrii.hnatyshyn\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\
 C:\Users\andrii.hnatyshyn\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\ExcelDataReader.xml
 C:\Users\andrii.hnatyshyn\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\ExcelDataReader.DataSet.pdb
 C:\Users\andrii.hnatyshyn\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\andrii.hnatyshyn\Desktop\SeleniumAutoFramework\EATestProject\bin\Debug\EAAutoFramework.dll.config
+C:\Users\andrii.hnatyshyn\Desktop\SeleniumAutoFramework\EATestProject\obj\Debug\EAAutoFramework.csprojAssemblyReference.cache
